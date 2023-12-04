@@ -16,6 +16,7 @@ public class CalculateInput {
 
             System.out.println("the output of the sum of num1 and num2 "+(num1 +num2));
         }catch (Exception e){
+            System.out.println(e.getMessage());
             e.printStackTrace();
         }
     }

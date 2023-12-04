@@ -6,5 +6,6 @@ public class Writer{
     public static void main(String[] args){
         PrintWriter printWriter = new PrintWriter(System.out, true);
         printWriter.println("this is writer project");
+        System.out.println("program completed");
     }
 }
